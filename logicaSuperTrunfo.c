@@ -135,9 +135,9 @@ int main() {
     printf("Pontos turisticos da carta 2: %d\n", pturisticos2);
 
     if (pturisticos1 > pturisticos2){
-        printf("A carta 1 venceu!\n");
+        printf(" %s venceu!\n", cidade1);
     } else {
-        printf("A carta 2 venceu!\n");
+        printf(" %s venceu!\n", cidade2);
     }
 
     return 0;
